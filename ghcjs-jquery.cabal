@@ -12,6 +12,7 @@ category:            Web
 build-type:          Simple
 cabal-version:       >=1.10
 extra-source-files: JavaScript/JQuery/nonghcjs.txt
+synopsis:            jquery bindings for ghcjs
 
 library
   js-sources: jsbits/makeListener.js, jquery/jquery-1.11.1.js
