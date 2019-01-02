@@ -19,7 +19,7 @@ library
   ghcjs-options: -O2 -Wall
   exposed-modules:   JavaScript.JQuery
                      JavaScript.JQuery.Internal
-  build-depends:     base >= 4.7 && < 4.12,
+  build-depends:     base >= 4.7 && < 4.13,
                      data-default,
                      ghcjs-base,
                      ghcjs-dom > 0.2,
